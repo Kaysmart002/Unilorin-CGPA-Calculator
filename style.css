@@ -154,7 +154,7 @@ button:hover {
 }
 
 button:hover {
-	background-color: #1f2a33;
+	background-color: #090d52;
 	transform: translateY(-2px);
        }
 
@@ -166,11 +166,9 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 	color: #fff;
-	padding: 20px;
-	text-size: 20px;
+	text-size: 18px;
 }
 footer {
-	padding: 6px;
 	height: 400px;
 	margin-top: 10px;
 	background-color: #090d52;
