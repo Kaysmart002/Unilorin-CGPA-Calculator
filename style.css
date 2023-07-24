@@ -173,13 +173,9 @@ h2 {
 footer {
 	background-color: #090d52;
 	color: #fff;
-	padding: 20px;
-	margin-bottom: 20px;
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 	}
 a {
-	colr: #fff;
+	color: #fff;
 	text-align: left;
 	font-size: 16px;
 	}
