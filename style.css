@@ -98,7 +98,7 @@ button {
 }
 
 button:hover {
-	background-color: #1f2a33;
+	background-color: #090d52;
        }
 
 .lastp {
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .lastp p:hover {
-	background-color: #1f2a33;
+	background-color: #090d52;
 	cursor: pointer;
 }
 @media screen and (max-width: 600px) {
