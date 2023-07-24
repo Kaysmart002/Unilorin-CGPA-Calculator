@@ -11,7 +11,7 @@ body {
 }
 
 .calculator-box {
-	width: 50%;
+	width: 90%;
 	max-width: 600px;
 	margin: 100px auto;
 	background-color: #fff;
@@ -88,7 +88,7 @@ button {
 	margin-top: 10px;
 	border: none;
 	border-radius: 5px;
-	background-color: #3d515c;
+	background-color: #090d52;
 	color: #fff;
 	font-size: 16px;
 	font-weight: bold;
@@ -102,8 +102,8 @@ button:hover {
        }
 
 .lastp {
-	border: 1px solid #3d515c;
-	background-color: #3d515c;
+	border: 1px solid #090d52;
+	background-color: #090d52;
 	text-align: center;
 	margin-top: 20px;
 	padding: 10px;
@@ -171,10 +171,15 @@ h2 {
 	border-radius: 10px;
 }
 footer {
-	text-align: center;
 	background-color: #090d52;
 	color: #fff;
 	padding: 20px;
 	margin-bottom: 20px;
 	border-radius: 10px;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+	}
+a {
+	colr: #fff;
+	text-align: left;
+	font-size: 16px;
+	}
