@@ -177,9 +177,11 @@ footer {
 	background-color: #090d52;
 	color: #fff;
 	text-align: left;
+	border: none;
+	border-radius: 5px;
 	}
 a {
 	color: #fff;
 	text-align: left;
-	font-size: 16px;
+	font-size: 12px;
 	}
