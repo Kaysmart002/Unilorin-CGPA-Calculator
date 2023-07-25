@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unilorin CGPA Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="gp.js"></script>
+</head>
+<body>
+	<h1> Unilorin CGPA Calculator by Kaysmart<h1/>
+	<div class="calculator-box">
+		<form class="key-0">
+			<input 
+				type="text"
+				placeholder="Course Code"
+				class="courses key-0"
+				required
+			/>
+			<input
+				type="number"
+				class="credit-units key-0"
+				placeholder="Credit Units"
+				value=""
+				required
+			/>
+			<select class="grade key-0" required>
+				<option class="grade" value="select">Select</option>
+				<option class="grade" value="5">A</option>
+				<option class="grade" value="4">B</option>
+				<option class="grade" value="3">C</option>
+				<option class="grade" value="2">D</option>
+				<option class="grade" value="1">E</option>
+				<option class="grade" value="0">F</option>
+			</select>
+		</form>
+		<!-- <section class"btn">+ Add Course</section> -->
+		<div class="btn">
+			<button onclick="addCourse()">+ Add Course</button>
+			<button onclick="removeCourse()">- Remove Course</button>
+			<button onclick="calcCgpa()">Calculate CGPA</button>
+		</div>
+
+		<div class="lastp">
+			<p id="cgpa-calc">Your CGPA is:</p>
+		</div>
+	</div>
+	<footer>
+		<h1 class="kayy"> About The Developer</h1>
+		<p class="kay"> Developer: Luwoye Kayode AKA Kaysmart</p>
+		<p class="kay"> Luwoye Kayode popularly known as Kaysmart is a penultimate student of Industrial Chemistry department, University of Ilorin. <br>His passion for the tech made him to acquire some technical skills. <br>Aside being a student, Kaysmart can code HTML, CSS, JAVASCRIPT and C.<br> Kaysmart is also a beginner in PYTHON<br> Kaysmart is also the Current Assistant General Secretary of the Faculty of Physical Sciences Students, University of Ilorin.</p>
+		<h2> Contact Kaysmart</h2>
+		<p class="kay"> <a href="https://wa.me/message/CSLZMXWGJB44F1">WhatsApp</a></p>
+		<p class="kay"> <a href="https://www.facebook.com/kheeng.kaywhy">Facebook</a></p>
+		<p class="kay"> <a href="https://twitter.com/KaysmartTech?t=9KB2A0aYNEQ8SYMBiX-vSw&s=09">Twitter</a></p>
+		<p class="kay"> <a href="https://www.linkedin.com/in/kaysmart-technologies-29421724a">LinkedIn</a></p>
+	</footer>
+
+</body>
+</html>
